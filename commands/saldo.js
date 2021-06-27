@@ -14,6 +14,7 @@ const execute = (bot, msg, args) => {
     var str = stringVar;
 
     var split = str.split(",");
+    console.log(split[1])  
     var split2 = split[1].split("}");
     console.log(split2[0])  
     var replace = split2[0].replace(/"/gi, "");
